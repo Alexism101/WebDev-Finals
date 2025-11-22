@@ -3,14 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GiftLove – Celebrate Your Loved Ones</title>
+    <title>GiftLove – For Mom</title>
 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-
-    <!-- LINK TO SEPARATE CSS -->
     <link rel="stylesheet" href="general.css" />
   </head>
 
@@ -24,10 +22,10 @@
 
       <ul>
         <li>
-          <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+          <a href="index.html"><i class="fas fa-home"></i> Home</a>
         </li>
         <li>
-          <a href="mom.html"><i class="fas fa-female"></i> For Mom</a>
+          <a href="mom.html" class="active"><i class="fas fa-female"></i> For Mom</a>
         </li>
         <li>
           <a href="dad.html"><i class="fas fa-user-tie"></i> For Dad</a>
@@ -41,57 +39,52 @@
       </ul>
     </nav>
 
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero-content">
-        <h2>Celebrate Love.</h2>
-        <p>Create personalized gift cards for your beloved family and friends.</p>
-        <button class="hero-btn">Get Started</button>
-      </div>
-    </section>
-
-    <!-- PREVIEW SECTION -->
-    <h2 class="section-title">Choose a Category</h2>
+    <!-- MOM SECTION -->
+    <h2 class="section-title">Gift Cards for Mom</h2>
 
     <div class="card-container">
-      <!-- Mom Card -->
-      <div class="gift-card" onclick="window.location.href='mom.html'">
-        <img src="assets/mom-1.jpg" alt="Mom" />
+      <div class="gift-card">
+        <img src="assets/mom-1.jpg" alt="Mom Card 1" />
         <div class="gift-card-content">
-          <h4>For Mom</h4>
-          <p>Show your appreciation to the queen of the family.</p>
+          <h4>You Inspire Me</h4>
+          <p>For the mom who gives endless love every day.</p>
         </div>
       </div>
 
-      <!-- Dad Card -->
-      <div class="gift-card" onclick="window.location.href='dad.html'">
-        <img src="assets/dad-1.jpg" alt="Dad" />
+      <div class="gift-card">
+        <img src="assets/mom-2.jpg" alt="Mom Card 2" />
         <div class="gift-card-content">
-          <h4>For Dad</h4>
-          <p>Thank your hero for everything he does.</p>
+          <h4>Happy Mother's Day</h4>
+          <p>You fill our home with warmth and kindness.</p>
         </div>
       </div>
 
-      <!-- Friends Card -->
-      <div class="gift-card" onclick="window.location.href='friends.html'">
-        <img src="assets/friends-1.jpg" alt="Friends" />
+      <div class="gift-card">
+        <img src="assets/mom-3.jpg" alt="Mom Card 3" />
         <div class="gift-card-content">
-          <h4>For Friends</h4>
-          <p>Celebrate the family you choose.</p>
+          <h4>You Are Loved</h4>
+          <p>A small gift for the biggest heart in the family.</p>
         </div>
       </div>
 
-      <!-- Occasions Card -->
-      <div class="gift-card" onclick="window.location.href='occasions.html'">
-        <img src="assets/occasions-1.jpg" alt="Occasions" />
+      <div class="gift-card">
+        <img src="assets/mom-4.jpg" alt="Mom Card 4" />
         <div class="gift-card-content">
-          <h4>Special Occasions</h4>
-          <p>Birthdays, Anniversaries, and Milestones.</p>
+          <h4>Thank You Mom</h4>
+          <p>For the sacrifices you made and the love you give.</p>
+        </div>
+      </div>
+
+      <div class="gift-card">
+        <img src="assets/mom-5.jpg" alt="Mom Card 5" />
+        <div class="gift-card-content">
+          <h4>My Hero</h4>
+          <p>You are the heart of our home.</p>
         </div>
       </div>
     </div>
 
-    <!-- MODAL (Hidden) -->
+    <!-- MODAL & TOAST INCLUDES -->
     <div id="giftModal" class="modal">
         <div class="modal-content">
             <span class="close-btn">&times;</span>
@@ -102,7 +95,7 @@
             <form id="giftForm">
                 <div class="form-group">
                     <label for="recipientName">To (Name)</label>
-                    <input type="text" id="recipientName" required placeholder="e.g. Mom, John">
+                    <input type="text" id="recipientName" required placeholder="e.g. Mom">
                 </div>
                 <div class="form-group">
                     <label for="message">Your Message</label>
@@ -113,7 +106,6 @@
         </div>
     </div>
 
-    <!-- TOAST NOTIFICATION (Hidden) -->
     <div id="toast" class="toast">
         <div class="toast-icon">
             <i class="fas fa-check"></i>
