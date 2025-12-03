@@ -61,7 +61,7 @@ nav ul li a:hover {
 /* HERO */
 .hero {
   height: 75vh;
-  background: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80")
+  background: url("background_img.jpg")
     center/cover no-repeat;
   display: flex;
   justify-content: center;
@@ -70,6 +70,10 @@ nav ul li a:hover {
   padding: 20px;
   color: white;
   position: relative;
+}
+
+@keyframes JevLex {
+  
 }
 
 .hero::after {
