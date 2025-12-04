@@ -56,7 +56,7 @@ nav ul li a {
 nav ul li a:hover {
   background: #ffe3ec;
   color: #d6336c;
-  transform: translateY(-3px);
+  transform: translateY(-6px) 
 }
 
 /* HERO */
@@ -106,7 +106,7 @@ nav ul li a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
-  padding: 0 40px 40px;
+  padding: 40px 40px 40px;
 }
 
 .gift-card {
@@ -134,7 +134,7 @@ nav ul li a:hover {
 
 .gift-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 11px 25px rgba(0, 0, 0, 0.15);
 }
 
 /* MOBILE FIXES */
