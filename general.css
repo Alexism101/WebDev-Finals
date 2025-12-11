@@ -90,6 +90,19 @@ nav ul li a:hover {
   display: grid;
 }
  
+.msg-container2 {
+  gap: 5px;
+  padding: 10px 10px 10px;
+  display: flex;
+}
+
+.msg-container3 {
+  gap: 5px;
+  padding: 10px 10px 10px;
+  display: grid;
+}
+
+
 .columns1 {
     border-radius: 15px 0px 15px 0px;
     overflow: hidden;
@@ -106,6 +119,35 @@ nav ul li a:hover {
   border-radius: 85px;
 }
 
+.columns2 {
+  padding: 20px;
+  float: left;
+  height: 190px;
+  transition: 0.3s;
+  object-fit: cover;
+  border-radius: 85px;
+  background: #ffe3f6;
+}
+
+.columns2 img {
+  padding: 20px;
+  float: left;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 85px;
+}
+
+.columns2:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 11px 25px rgba(2, 0, 0, 0.062)
+}
+
+.columns2:hover {
+  color: rgb(134, 0, 151);
+  text-shadow: 0 11px 11px rgba(75, 5, 32, 0.315);
+  transition: 0.5s;
+}
+
 h4 {
   text-align: center;
   color: #e64e8d
@@ -116,6 +158,14 @@ h4 {
 }
 
 .h4two {
+  padding-top: 15px;
+}
+
+.h4three {
+  padding-top: 15px;
+}
+
+.h4four {
   padding-top: 15px;
 }
 
