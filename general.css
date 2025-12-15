@@ -135,7 +135,7 @@ nav ul li a:hover {
   float: left;
   height: 220px;
   object-fit: cover;
-  border-radius: 85px;
+  border-radius: 50%;
 }
 
 .columns2:hover {
