@@ -87,14 +87,14 @@
     background: rgba(36, 6, 6, 0.4);
   }
 
-  .left-section img {
+  .container-mom img {
     border-radius: 50px;
     width: 150px;
     height: auto;
     flex-shrink: 0;
   }
 
-  .left-section {
+  .container-mom {
     background-color: #ffe6f0;
     padding: 15px;
     border-radius: 15px;
@@ -108,15 +108,15 @@
     overflow: hidden;
     align-items: flex-start;
     transition: 0.3s;
-    height: 400px;
+    height: 450px;
   }
 
-  .left-section:hover {
+  .container-mom:hover {
     transform: translateY(-8px);
     box-shadow: 0 11px 25px rgba(2, 0, 0, 0.062)
   }
 
-  .left-section:hover {
+  .container-mom:hover {
     color: rgb(134, 0, 151);
     text-shadow: 0 11px 11px rgba(75, 5, 32, 0.315);
     transition: 0.5s;
@@ -127,12 +127,58 @@
     color: #e64e8d
   }
 
-  .left-section p {
+  .container-mom p {
     padding-top: 15px;
     padding-bottom: 20px;
   }
 
- 
+  .right-right {
+    background-color: #ffe6f0;
+    padding: 15px;
+    border-radius: 15px;
+    width: 40%;
+    min-width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    align-items: flex-start;
+    transition: 0.3s;
+    height: 250px;
+  }
+
+  .right-right:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 11px 25px rgba(2, 0, 0, 0.062)
+  }
+
+  .right-right:hover {
+    color: rgb(134, 0, 151);
+    text-shadow: 0 11px 11px rgba(75, 5, 32, 0.315);
+    transition: 0.5s;
+  }
+
+  .right-right img {
+    border-radius: 50px;
+    width: 150px;
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  .right-right p {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  .mega-container {
+    display: flex;
+  }
+
+  .right-right h4 {
+    text-align: center;
+  }
 </style>
 
 <body>
@@ -151,13 +197,14 @@
   </nav>
 
   <!--Others-->
+  <div class="mega-container">
 
-  <div class="left-section">
+  <div class="container-mom">
     <div class="left-left">
       <img src="je.avif">
     </div>
-    <div class="msg-content">
-      <h4 class="h4-1">Love your Mom The best that you can</h4>
+    <div class="part1">
+      <h4>Love your Mom The best that you can</h4>
       <p>Always Love your Mom Anytime and Anywhere. Everytime you get up from sleep to go to school, they are the one
         who is responsible for preparing your needs in school. They cook, They wash, They sanitize for you and for
         your entire family. Make some time to say "I love you" or "Thank you" to them. and pray for more safety,
@@ -168,14 +215,25 @@
         them mentally and physically.</p>
     </div>
   </div>
+
+  <div class="right-right">
+    <div>
+      <img src="pray.avif" width="200px">
+    </div>
+    <h4 class="h4h4">God's Shield</h4>
+    <p>
+      Your Mom needs your prayer too. they need protection, guide, strength and good health. Always remember that their
+      life are limited and their time are already calculated. Be mindful that Mom's are best in terms of house works, or
+      taking care of you or the entire family. but, they also need to be cared as well.
+    </p>
   </div>
-   
-  
 
-
-
+  <div>
+    
+  </div>
 
   </div>
+
 </body>
 
 </html>
