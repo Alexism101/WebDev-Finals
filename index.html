@@ -27,11 +27,14 @@
 
   <!-- HERO -->
   <section id="home" class="hero">
-    <div class="hero-content">
-      <h2>Celebrate Love</h2>
-      <p>Here you can find some lovely designs with messages for your lovely parents.</p>
-    </div>
-  </section>
+  <div class="hero-content">
+    <h2 id="hero-title">Celebrate Love</h2>
+    <p id="hero-text">
+      Here you can find some lovely designs with messages for your lovely parents.
+    </p>
+  </div>
+</section>
+
 
   <!--Pics with Messages-->
 
@@ -54,7 +57,9 @@
 
   <div class="msg-container2">
     <div class="columns2">
+      <a href="ForMom.html">
       <img src="je.avif">
+      </a>
       <div class="msg-content">
         <h4 class="h4three">Love your Mom The best that you can</h4>
         <p>Always Love your Mom Anytime and Anywhere. Everytime you get up from sleep to go to school, they are the one
@@ -69,7 +74,9 @@
     </div>
 
     <div class="columns2">
+      <a href="ForDad.html">
       <img src="eje.webp">
+      </a>
       <div class="msg-content">
         <h4 class="h4four">Appreciate your Dad's Love and Embrace</h4>
         <p>What's the role of a Father? of course everybody knows that most role of the father is to handle decisions
@@ -230,6 +237,46 @@
     </div>
 
   </div> -->
+
+  <script>
+  const heroMessages = [
+    {
+      title: "Celebrate Love",
+      text: "Here you can find some lovely designs with messages for your lovely parents."
+    },
+    {
+      title: "Mom & Dad Matter",
+      text: "Because God won't give you another parents like them."
+    },
+    {
+      title: "Gift From the Heart",
+      text: "Express all you can. Show them love everyday as always."
+    }
+  ];
+
+  let current = 0;
+  const titleEl = document.getElementById("hero-title");
+  const textEl = document.getElementById("hero-text");
+
+  setInterval(() => {
+    titleEl.classList.add("fade-out");
+    textEl.classList.add("fade-out");
+
+    setTimeout(() => {
+      current = (current + 1) % heroMessages.length;
+
+      titleEl.textContent = heroMessages[current].title;
+      textEl.textContent = heroMessages[current].text;
+
+      titleEl.classList.remove("fade-out");
+      textEl.classList.add("fade-in");
+
+      textEl.classList.remove("fade-out");
+      textEl.classList.add("fade-in");
+    }, 800);
+  }, 3000);
+</script>
+
 
 </body>
 
