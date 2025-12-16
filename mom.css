@@ -58,7 +58,7 @@
       transform: translateY(-6px);
   }
 
-  .mom {
+  /* .mom {
       height: 75vh;
       background: url("/for_Mom.jpg") center/cover no-repeat;
       display: flex;
@@ -68,14 +68,14 @@
       padding: 20px;
       color: white;
       position: relative;
-  }
+  } */
 
-  .mom::after {
+  /* .mom::after {
       content: "";
       position: absolute;
       inset: 0;
       background: rgba(36, 6, 6, 0.4);
-  }
+  } */
 
   .container-mom img {
       border-radius: 50px;
@@ -171,7 +171,7 @@
       text-align: center;
   }
 
-  .right-two {
+  /* .right-two {
       background-color: #ffe6f0;
       padding: 15px;
       border-radius: 15px;
@@ -186,7 +186,7 @@
       align-items: flex-start;
       transition: 0.3s;
       height: 250px;
-  }
+  } */
 
   .line-down {
       display: inline-block;
@@ -203,11 +203,11 @@
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.384);
   }
 
-  .right-bottom {
+  /* .right-bottom {
       background-color: #ffe6f0;
       display: inline-flex;
 
-  }
+  } */
 
   .gif {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
